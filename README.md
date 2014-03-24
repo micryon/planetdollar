@@ -12,25 +12,20 @@ Copyright (c) 2014 RealStackCoin Developers
 Copyright (c) 2014 PlanetDollar Developers
 
 Proof-of-work algorithm:
- - Scrypt
- - Maxcoins: 1 200 000 000 000 (1.2 trillion..matching USD circulation)
-     1 152 921 504 606 846 976 (a big number...)
- - Premine: 100%
- - Mining Reward size: 4000 per block to start + 10 for subsuquent block height until 60000 (roughly 15 years), then steady.
-    - when do we stop subsidies... calc?
+ - Scrypt n Factor
+ - Premine: 1 200 000 000 000 (1.2 trillion..matching USD circulation)
+ - Mining Reward size: 100 per block to start +5 each day, until 60k rewards.
  - Resulting Inflation: starts at 0.1% -> ~1%, then starts decreasing again
     - rewards stop at block: 19215338410114
- - 2.0 minute block targets 
+ - 2.5 minute block targets 
  - Confirmations? 6
- - MATURITY? TBD
- - Transaction cost? TBD  
- - TBD coins per block
+ - Transaction cost min: 0.01  
  - KGW implementation
 
 default Port 7784  / +10k for test net
 default RPC port 7783 
 
-esting
+Testing
 -------
 
 Testing and code review is the bottleneck for development; we get more pull
